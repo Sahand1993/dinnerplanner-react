@@ -62,4 +62,7 @@
         position:relative;
         top:160px;
     }
+    .pricetag{
+        float:none;
+    }
 }
