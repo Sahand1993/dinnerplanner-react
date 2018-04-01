@@ -1,0 +1,147 @@
+.Sidebar{
+	position:fixed;
+	width:300px;
+	top:100px;
+	height:100%;
+	border-right: solid;
+	padding: 0px;
+
+}
+
+.noofpeople{
+	position:relative;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	right:0px;
+	width:100%;
+}
+
+.noofpeople-wrapper input{
+	width:55px;
+}
+
+.dinneroverview{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+.dish-overview-header{
+	border-bottom: solid;
+	border-top: solid;
+	height:25px;
+	padding-left:25px;
+	padding-right: 30px;
+	margin:0px;
+	background-color: #d4d5d8;
+}
+
+.dish-name{
+	float:left;
+
+}
+
+.cost{
+	float:right;
+}
+
+.dinneroverview-price{
+	color:red;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	padding-right:30px;
+}
+
+.dinneroverview-pricetag{
+	float:right;
+}
+
+.confirmbuttonwrapper{
+	padding-left: 10px;
+	text-align: center;
+	padding-top: 40px;
+	background-color:white;
+}
+.menuitemwrapper span{
+	color:#ef4545;
+}
+.menuitemwrapper{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-right: 17px;
+}
+
+.menuitem{
+	border-style: solid;
+	width:100%;
+	padding:5px;
+	left:10px;
+	right:10px;
+}
+.dishprice{
+	float:right;
+}
+
+
+@media (max-width: 766px){
+	.sidebar{
+		width:100%;
+		height:40%;
+		position:static;
+		background-color: #e5e6e8;
+		padding-bottom: 20px;
+	}
+	/*
+    .confirm{
+		padding-top:40px;
+	}
+	*/
+
+}
+
+@media (min-width: 768px){
+	.sidebar{
+		display:block !important;
+		border-right: solid;
+		height:100% !important;
+	}
+	#hamburger{
+		display:none;
+	}
+	.hamburgerdiv{
+		display:none;
+	}
+	.menuitem{
+		width:270px;
+		left:20px;
+	}
+}
+
+@media (max-width: 767px){
+	.Sidebar{
+		position:fixed;
+		top:125px;
+		border-top:solid;
+		border-bottom:solid;
+		z-index:1;
+		width:100%;
+		height:auto;
+		background-color:white;
+	}
+	.shown-sidebar{
+		top:250px;
+		position:relative;
+	}
+	.SelectDish .Sidebar{
+		position:relative;
+		top:25px;
+	}
+}
+
+@media (max-width: 360px){
+	.confirm button{
+		width:30px;
+	}
+}

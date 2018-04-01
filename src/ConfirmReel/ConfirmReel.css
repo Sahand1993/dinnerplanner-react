@@ -1,0 +1,65 @@
+.dinneroverview-dish{
+	display:table-cell;
+	padding:10px;
+}
+.imgframe{
+	width:146px;
+	height:auto;
+	margin:0 auto;
+	border:solid;
+	background-color: #DCDCDC;
+}
+.overview-img{
+	width:140px;
+	height:140px;
+}
+.pricetag{
+	float:right;
+	color: red;
+}
+.imgframe p{
+	font-family: "Comic Sans MS";
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.menuwrapper{
+	padding-top:50px;
+	margin:0 auto;
+}
+.menutotal{
+	border-left: solid;
+	display: table-cell;
+	padding-left: 10px;
+}
+.menutotal span{
+	display:block;
+}
+.dinnertotal{
+	color:red;
+}
+@media (max-width: 767px){
+	.dinneroverview-dish{
+        display:block;
+    }
+	.menuwrapper{
+        text-align: center;
+        padding-top:0px;
+    }
+    .dinneroverview-menu{
+		display:block;
+    }
+    .menutotal{
+		display:block;
+		border-left:none;
+        padding-left:0px;
+	}
+	.menutotal .floatdiv{
+			border-top:solid black;
+            width:143px;
+            margin:auto;
+    }
+    .ConfirmReel{
+        position:relative;
+        top:160px;
+    }
+}

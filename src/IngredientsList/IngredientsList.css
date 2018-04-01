@@ -1,0 +1,49 @@
+.ingredients-list ul{
+	list-style: none;
+	padding-left: 10px;
+}
+
+.ingredients-list h4{
+	margin-top: 20px;
+}
+
+.ingredients-list li{
+	padding:4px;
+}
+
+.ingredients-list{
+	background-color:#e2a556;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.dish-ingredients{
+    margin-top:0px;
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+.total{
+	border-top:solid;
+}
+
+@media (max-width: 1292px) and (min-width: 768px){
+	.dish-ingredients{
+		width:50% !important;
+		padding-right: 100px;
+        padding-bottom: 30px;
+        margin-left:300px;
+        position:static;
+        margin-top:0px;
+	}
+
+}
+
+@media (max-width: 767px){
+	.dish-ingredients{
+        position:relative;
+        padding:30px;
+	}
+	
+}

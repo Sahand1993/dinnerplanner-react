@@ -1,0 +1,21 @@
+.print{
+    width:100%;
+    position:absolute;
+    top:100px;
+}
+.dinnerprintout{
+    position:relative;
+}
+.dinnerprintout-img img{
+    width:90%;
+}
+
+@media (max-width:767px){
+    .dinnerprintout-img img{
+        width:auto;
+    }
+    .dinnerprintout{
+        top:148px;
+    }
+
+}

@@ -1,0 +1,68 @@
+.searchbar{
+	border-style:solid;
+	border-color: black;
+}
+
+.dishsearch-dish{
+	text-align: center;
+	display: inline-block;
+	padding:10px;
+	margin-top: 20px;
+}
+
+.dishreel{
+	text-align: center;
+	display:inline-block;
+	width:calc(100% - 300px);
+	height:500px;
+	overflow-y:scroll;
+}
+
+.imgframe{
+	width:146px;
+	height:auto;
+	margin:0 auto;
+	border:solid;
+	background-color: #DCDCDC;
+}
+
+.dishsearch-img{
+	width:140px;
+	height:140px;
+}
+
+@media (min-width: 768px){
+	.dishes{
+		top:96px;
+		position:absolute;
+		left:300px;
+	}
+	.dishreel{
+		width:100%;
+	}
+	
+}
+
+@media (max-width: 767px){
+	/*.main-bar{
+		left:0px;
+		position:relative;
+		padding-right:0px;
+		margin:0px;
+		padding-left:0px;
+	}*/
+	.SelectDish{
+		position:fixed;
+		top:100px;
+	}
+
+	.dishes{
+		position:absolute;
+		/*top:96px;
+		left:300px;*/
+		width:100%;
+	}
+	.dishreel{
+		width:100%;
+	}
+}

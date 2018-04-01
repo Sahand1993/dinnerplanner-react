@@ -1,0 +1,19 @@
+.menubottomline{
+	border-bottom:solid;
+	height:50px;
+}
+.col-centered{
+	float:none;
+	margin: 0 auto;
+}
+.printbuttonwrapper{
+	text-align: center;
+	padding-top: 10px;
+}
+
+@media (max-width:767px){
+    .confirmfoot{
+        position:relative;
+        top:130px;
+    }
+}

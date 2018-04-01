@@ -1,0 +1,53 @@
+.DishDetails{
+    position:relative;
+    top:100px;
+    width:100%;
+}
+.dishimg{
+	width:80%;
+}
+
+.dishtext{
+	padding-left: 0px;
+}
+
+.back-to-search{
+    padding-left:0px;
+    padding-top:100px;
+}
+
+.dishdetails{
+    margin-left:300px;
+    padding-left:15px;
+    margin-top:0px;
+    width:50%;
+}
+
+#details{
+    overflow:hidden;
+    padding-top:15px;
+}
+
+@media (max-width: 1292px) and (min-width: 768px){
+    
+}
+
+@media (max-width: 767px){
+    .DishDetails{
+        height:100%;
+    }
+	.dishdetails{
+        margin-left: 0px;
+        width:100%;
+        padding-top:15px;
+    }
+    #details{
+        padding-top:0px;
+        overflow:visible;
+    }
+    .scrollable{
+        position:fixed;
+        overflow-y:scroll;
+        max-height:700px;
+    }
+}

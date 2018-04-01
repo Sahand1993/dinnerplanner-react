@@ -1,0 +1,16 @@
+.preparation{
+    margin-left:300px;
+    width: 40%;
+}
+.instructions{
+    padding-left: 15px;
+}
+
+@media (max-width: 767px){
+    .preparation{
+        margin-left:0px;
+        padding-left:30px;
+        padding-right:30px;
+        width:100%;
+    }
+}

@@ -1,0 +1,50 @@
+.DishSearch{
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border-bottom: solid;
+	position:fixed;
+	top:100px;
+	width:calc(100% - 300px);
+	z-index: 1;
+    background-color: white;
+    left:300px;
+}
+.keyword{
+    display:inline;
+}
+.select{
+    display:inline;
+}
+.search{
+    display:inline;
+}
+.keyword .form-control{
+    width:33%;
+    display:inline;
+}
+.select .form-control{
+    width:33%;
+    display:inline;
+}
+
+@media (max-width: 767px){
+    .DishSearch{
+        top:22px;
+        position:relative;
+        width:100%;
+        /*margin-right:0px;
+        margin-left:0px;*/
+        left:0px;
+        padding-left:0px;
+        padding-bottom:0px;
+        background-color:white;
+    }
+    .keyword .form-control{
+        width:33%;
+        display:inline;
+    }
+    .select .form-control{
+        width:33%;
+        display:inline;
+    }
+}
