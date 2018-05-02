@@ -1,4 +1,7 @@
-# Dinner Planner React
+# WARNING
+If you're a student of DH2642 at KTH, you might not be allowed to look at this material. Proceed at your own risk!
+
+# LAB INSTRUCTIONS
 
 ## How to get started
 
